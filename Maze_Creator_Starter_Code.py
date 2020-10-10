@@ -41,13 +41,13 @@ class Maze:
         ## TODO: Using pwidth and pheight, create a pygame screen
         ## http://www.petercollingridge.co.uk/tutorials/pygame-physics-simulation/creating-pygame-window/
         ## Just fill in the blank, don't add any other lines.
-        self.screen = pygame.display.set_mode(_______)
+        self.screen = pygame.display.set_mode(width, height)
 
         ## TODO: Change the background color if you want
-        self.screen.fill(CYAN)
+        self.screen.fill(255,255,210)
 
         ## TODO: Change the window title
-        pygame.display.set_caption("Change Me")
+        pygame.display.set_caption("ThE hApPy MaZe")
 
     ## Build an empty grid
     def build_grid(self):
